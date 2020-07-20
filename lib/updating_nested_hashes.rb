@@ -62,19 +62,23 @@ def add_characters
    #   - The second hash should have the :name key set to "Apothecary"
    # Code your solution here:
 <<<<<<< HEAD
-  epic_tragedy[:additional_characters] = []
-  # prince = { name: "Prince Escalus" }
-  # apothecary = { name: "Apothecary" }
-  epic_tragedy[:additional_characters] << { :name => "Prince Escalus" }
-  epic_tragedy[:additional_characters] << { :name => "Apothecary" }
-=======
-epic_tragedy[add_characters] = []
-prince = { :name => "Prince Escalus" }
-apothecary = { :name => "Apothecary" }
-epic_tragedy[add_characters] << { :name => "Prince Escalus" }
-epic_tragedy[add_characters] << { :name => "Apothecary" }
+#   epic_tragedy[:additional_characters] = []
+#   # prince = { name: "Prince Escalus" }
+#   # apothecary = { name: "Apothecary" }
+#   epic_tragedy[:additional_characters] << { :name => "Prince Escalus" }
+#   epic_tragedy[:additional_characters] << { :name => "Apothecary" }
+# =======
+# epic_tragedy[add_characters] = []
+# prince = { :name => "Prince Escalus" }
+# apothecary = { :name => "Apothecary" }
+# epic_tragedy[add_characters] << { :name => "Prince Escalus" }
+# epic_tragedy[add_characters] << { :name => "Apothecary" }
 
 >>>>>>> a0abffb5fef0944fa5f84d0e35eb859515517c24
+epic_tragedy[:additional_characters] = [
+  { name: "Prince Escalus" },
+  { name: "Apothecary" }
+]
    # After your code, the following line will return the altered hash
    epic_tragedy
 end
